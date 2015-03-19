@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-size: 20px;
+}
+body{
+	background-color: #000000;
+}
+a,a:focus,a:hover{
+	color:#FF007F;
+	text-decoration: underline;
+}
+a:focus,a:hover{
+	font-size: larger;
+}
+
+div.top{
+	height: 100vh;
+	background: no-repeat center right fixed url("./img/purplecloud.jpg");
+	-webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+div.canvas{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1.top{
+	text-align: center;
+}
+
+a.side-bar{
+	height: 80px; 
+	width: 130px; 
+	display: block; 
+	position: absolute; 
+	bottom: 0px; 
+	right: 5%; 
+	background-color: #000000; 
+	text-align: center;
+	z-index: 6;
+}
+.top .side-bar .glyphicon { 
+	color: #660066; 
+	font-size: 40px; 
+	padding-right: 2px; 
+	padding-top: 20px; 
+	
+	-webkit-animation: wiggle 3s; /* Chrome, Safari, Opera */
+    animation: wiggle 3s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+.top .side-bar:hover .glyphicon { font-size:50px; padding-top: 25px; }
+@-webkit-keyframes wiggle
+	0% {padding-top: 20px;}
+	50% {padding-top: 30px;}
+	100% {padding-top: 20px;}
+}
+@keyframes wiggle {
+	0% {padding-top: 20px;}
+	50% {padding-top: 30px;}
+	100% {padding-top: 20px;}
+}
+
+div#profile{
+	background: no-repeat right url("./img/profile2.png") black;
+	background-size: 50vh;
+	padding-bottom: 100px;
+}
+/********************************/
+
+

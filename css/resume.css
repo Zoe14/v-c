@@ -1,0 +1,59 @@
+body{
+	background: no-repeat center right fixed url('./img/purplecloud.jpg');
+}
+
+.navbar  { border: 0px;  position: fixed; top: 100px; right: 4%; z-index: 999;}
+.navbar .navbar-collapse { padding: 0px; max-height: none; }
+/*.navbar .navbar-nav { width:120%; }*/
+.navbar-nav{ margin: 0px; background-color: #F3EFE0; width:150px; border-radius: 4px;}
+.navbar .nav > li { display: block; float: none; height: 80px; width:120%;} 
+.navbar .nav > li a{ display: block;  ; height: 80px; text-align: left; padding-top: 30px; font-weight: 18px; color: #660066; }
+.navbar .nav > li a:hover, .navbar .nav > li a:focus { color: #99004C;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { background: #660066; color: #F3EFE0; }
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:focus .icon-bar { background: #660066; }
+
+div.resume {
+padding-left: 15%;
+padding-right:15%;
+padding-top: 50px;
+padding-bottom: 50px;
+width:100vw;
+}
+
+div.timeline p{
+	margin-top:20px;
+	text-align:center;
+}
+div#education{
+	margin-top: 100px;
+	background-color:#333333;
+	opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+div#experience{
+	background-color:#660066;
+	opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+div#project{
+	background-color: #333333;
+	opacity: 0.8;
+	filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+span{
+	margin-left: 10px;
+}
+
+div#project a{
+	color:white;
+	font-size:inherit;
+}
+div#skill{
+	background-color:#660066;
+	opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+div#contact{
+	background-color: #333333;
+}
